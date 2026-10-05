@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GeekZone | Hardware, periféricos e colecionáveis</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="strip">Frete grátis acima de R$ 500 &nbsp;·&nbsp; Parcelamento em até 10x sem juros</div>
+<header><div class="bar">
+  <div class="logo"><i></i>GeekZone</div>
+  <div class="search"><input id="q" type="search" placeholder="Buscar produto, marca ou código" aria-label="Buscar"></div>
+  <button class="theme" id="themeBtn" aria-label="Alternar modo escuro"><span class="sw"></span><span>Modo escuro</span></button>
+  <button class="cart" id="cartBtn" aria-label="Abrir carrinho">Carrinho <em id="count">0</em> <em id="total">R$ 0,00</em></button>
+</div></header>
+
+<div class="wrap">
+  <div class="head"><h1>Monte seu setup</h1><span id="found"></span></div>
+  <nav class="tabs" id="tabs"></nav>
+  <main class="grid" id="grid"></main>
+</div>
+
+<div class="shade" id="shade"></div>
+<aside id="drawer" aria-label="Carrinho">
+  <h2>Carrinho <button id="close" aria-label="Fechar">Fechar</button></h2>
+  <div id="items"></div>
+  <div class="foot"><div class="tot"><span>Total</span><b id="dTotal">R$ 0,00</b></div><button class="buy" id="checkout">Finalizar compra</button></div>
+</aside>
+<div class="toast" id="toast"></div>
+<footer>GeekZone © 2026 · Pedro Libanio</footer>
+
+<script src="script.js"></script>
+<script src="robo.js"></script>
+</body>
+</html>

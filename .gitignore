@@ -1,0 +1,13 @@
+# Sistema e editor
+Thumbs.db
+.DS_Store
+.vscode/
+
+# Dependências e saídas de build, caso sejam adicionadas futuramente
+node_modules/
+dist/
+
+# Arquivos locais e credenciais
+.env
+.env.*
+!.env.example
